@@ -9,12 +9,12 @@ resources:
 - name: cf
   type: cf
   source:
-    api: api.run.pivotal.io
-    username: lakshman.rengarajan@altimetrik.com
-    password: God@1234
-    organization: Lakshman
-    space: development
-    skip_cert_check: true
+    api: {{api-value}}
+    username: {{username-value}}
+    password: {{password-value}}
+    organization: {{organization-value}}
+    space: {{ space-value}}
+    skip_cert_check: {{skip_cert_check-value}}
 
 jobs:
 - name: build

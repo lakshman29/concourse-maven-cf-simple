@@ -20,4 +20,4 @@ $ fly -t lite unpause-pipeline -p maven-cf-simple
 ```
 When it is all said and done, you should have the application running on Cloud Foundry!
 
-Example: http://concourse-maven-cf-simple.local.pcfdev.io/
+Example: http://concourse-maven-cf-simple.local.pcfdev.io/   
